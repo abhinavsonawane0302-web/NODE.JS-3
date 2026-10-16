@@ -104,7 +104,7 @@ app.post("/api/std", (req , res ) =>{
         res.status(201).json({
             success:true,
             body:newstd,
-            msg:"std data assed successfully !!!"
+            msg:"std data created successfully !!!"
         })
 
     } catch (err) {
